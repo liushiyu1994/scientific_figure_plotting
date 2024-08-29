@@ -3,7 +3,7 @@ This package is designed for creating high-quality vector graphs, scientific dia
 
 ### Get started
 
-To quickly get started, we’ve provided an example that includes all necessary elements. You can generate the sample figure using the following command:
+To quickly get started, we've provided an example that includes all necessary elements. You can generate the sample figure using the following command:
 
 ```shell
 python main.py figure 1
@@ -16,13 +16,13 @@ The example output is:
 
 **Positional arguments**
 
-`figure_name`: Target figure name to generate.
+`figure_name`: The name of the target figure to generate.
 
 **Optional arguments**
 
-`-s, --svg`: Output SVG figures. Default output is PDF format.
+`-s, --svg`: Output SVG figures (default output is in PDF format).
 
-`-b, --background`: Add background when output SVG figures.
+`-b, --background`: Add background when outputting SVG figures.
 
 
 | Arguments | Figures  | Output files                                                 |
